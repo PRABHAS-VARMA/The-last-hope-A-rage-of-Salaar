@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Rage Of Salaar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <audio id="backgroundMusic" src="../backgroundSound/horror-movie-cue-55952.mp3" autoplay loop></audio>
+
+    <div class="bigCanvas">
+
+        <!-- Health and time Container div -->
+        <div class="healthContainer">
+            <!-- Bahubali Health -->
+            <div class="BahubaliParent">
+
+                <div  class="BahubaliHealth"></div>
+                
+                <div id="BahubaliHealth" class="nx"></div>
+            </div>
+            <!-- Timer -->
+            <div id="timer" class="timer">
+                
+            </div>
+
+            <!-- Monster Health -->
+            <div class="monsterParent">
+
+                <div  class="monsterHealth"></div>
+                
+                <div id="monsterHealth" class="nx"></div>
+            </div>
+        </div>
+     <div id="displayText" class="displayText">
+        
+        
+     </div>  
+     <div class="buttons"><a href="../HomePage/Homepage.html"><button id="myButton"> Go Home</button></a>
+     </div>
+
+     <div id="scoreDisplay" class="scoreDisplay">Score: <span id="score">0</span></div>
+
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    </div>
+
+
+
+    <script src="./utility4.js"></script>
+    <script src="./class4.js"></script>
+    <script src="./lecharious.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <audio id="backgroundMusic" src="../backgroundSound/horror-background-atmosphere-156462.mp3" autoplay loop></audio>
+
+    <div class="header">
+        <h1 id="main-header">The Final Hope: A Rage of Salaar</h1>
+    </div>
+    <div class="container">
+        <form class="loginbox">
+            <label for="username">Enter Your Name: </label>
+            <input type="text" id="username" required><br>
+            <label for="nickname">Enter Your Nickname: </label>
+            <input type="text" id="nickname" required><br>
+        </form>
+        <button id="submit">Submit</button>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form class="loginbox">
+        <label for="username">Enter Your Name: </label>
+        <input type="text" id="username" required><br>
+        <label for="nickname">Enter Your Nickname: </label>
+        <input type="text" id="nickname" required><br>
+    </form>
+    <button id="submit">Submit</button>
+    <script>
+         document.getElementById('submit').addEventListener('click', function(event) {
+            event.preventDefault(); // prevent form submission
+            let username = document.getElementById('username').value;
+            let nickname = document.getElementById('nickname').value;
+            if (username && nickname) {
+                const button = document.getElementById("submit")
+                submit.onclick=()=>{
+                    location.href = "./HomePage/Homepage.html"
+                    }
+            } else {
+                alert('Please fill in both fields');
+            }
+        });
+        
+    </script>
+</body>
+</html> -->

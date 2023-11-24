@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Rage Of Salaar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <audio id="backgroundMusic" src="../backgroundSound/tribe-drum-loop-103173.mp3" autoplay loop></audio>
+    <!-- <audio id="soundEffect" src="../backgroundSound/punch-1-166694.mp3"></audio> -->
+    <div class="bigCanvas">
+
+        <!-- Health and time Container div -->
+        <div class="healthContainer">
+            <!-- Bahubali Health -->
+            <div class="BahubaliParent">
+
+                <div  class="BahubaliHealth"></div>
+                
+                <div id="BahubaliHealth" class="nx"></div>
+            </div>
+            <!-- Timer -->
+            <div id="timer" class="timer">
+                
+            </div>
+
+            <!-- Monster Health -->
+            <div class="monsterParent">
+
+                <div  class="monsterHealth"></div>
+                
+                <div id="monsterHealth" class="nx"></div>
+            </div>
+        </div>
+     <div id="displayText" class="displayText">
+        
+        
+     </div>  
+     <div class="buttons"><a href="../level2/level2.html"><button id="myButton"> Go Home</button></a>
+     </div>
+     <!-- Add this div for displaying the score -->
+    <div id="scoreDisplay" class="scoreDisplay">Score: <span id="score">0</span></div>
+
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    </div>
+
+    <script src="./utility1.js"></script>
+    <script src="./class1.js"></script>
+    <script src="./level1.js"></script>
+</body>
+</html>
