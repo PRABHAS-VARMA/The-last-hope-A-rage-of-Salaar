@@ -13,52 +13,59 @@
 .healthContainer{
     position: absolute;
     display: flex;
-    align-items: center;
     width: 100%;
+    align-items: center;
     padding: 20px;
-    background-color: transparent;
 }
 
-.BahuHealth{
-    background-color: yellow;
-    height: 30px;
-    width: 100%;
-}
 
 .timer{
-    background-color: red;
+    background-color: black;
     width: 100px;
-    height: 100px;
-    flex-shrink:0 ;
+    height: 50px;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    border: 4px solid rgb(2, 21, 73)
 }
 
-.monsterHealth{
-    background-color: yellow;
-    height: 30px;
-    width: 100%;
+.mon{
+    background-color: red; 
+    height: 30px
 }
 
-.nx{
+#monsterHealth{
     position: absolute;
-    background-color: blue;
+    background-color: #22b12b;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 }
 
+
+
 .monsterParent{
     position: relative;
-    height: 30px;
+    width: 100%;
+    border-top: 4px solid rgb(82, 5, 5);
+    border-right: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(82, 5, 5);
+
+
+}
+#BahubaliHealth{
+    position: absolute;
+    background-color: #22b12b;
+    top: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
 }
-
-
 .BahubaliHealth{
-    background-color: yellow;
+    background-color: rgb(255, 0, 0);
     height: 30px;
     width: 100%;
 }
@@ -67,14 +74,18 @@
 
 .BahubaliParent{
     position: relative;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
-    height: 30px;
-    width: 100%;
+    border-top: 4px solid rgb(82, 5, 5);
+    border-left: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(82, 5, 5);
 }
 
 .displayText{
     position: absolute;
+    background-color: black;
+    opacity: 0.8;
     color: white;
     align-items: center;
     justify-content: center;
@@ -84,11 +95,7 @@
     left: 0;
     display: none;
     font-size: 30px;
-    margin-bottom: 25px;
-    background-color: black;
-    opacity: 0.8;
-    margin-top: 18px;
-
+  
 }
 
 #myButton{
@@ -104,7 +111,6 @@
     font-size: 20px;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid rgb(0, 94, 8); */
     cursor: pointer;
     background: transparent;
     background: linear-gradient(0deg, rgb(80, 2, 2) 0%, rgb(79, 48, 48) 100%);

@@ -11,16 +11,27 @@ function determineWinner({player,enemy,timerId}){
 
     clearTimeout(timerId)
 
-    document.querySelector("#displayText").style.display = " flex"
+    document.querySelector(".displayText").style.display = " flex"
     document.querySelector("#myButton").style.display = " flex"
     document.querySelector("#scoreDisplay").style.display = " flex"
 
 
+    document.getElementById("myButton").addEventListener("click", function () {
+        if (enemy.health<=0){
+            location.href = "../level2/level2.html"
+        } else {
+            location.href = "../HomePage/Homepage.html"
+        }
+
+    })
+
+
+    const storedNickname = localStorage.getItem("nickname");
 
     if (enemy.health<=0){
-        document.querySelector("#displayText").innerHTML = "Bravo! You survived Twilight Forest";
+        document.querySelector("#displayText").innerHTML = `Bravo, ${storedNickname}! You survived Twilight Forest`;
         document.querySelector("#myButton").innerHTML = "Next";
-        document.querySelector("#scoreDisplay").innerHTML = "Final Score: " + 115;
+        document.querySelector("#scoreDisplay").innerHTML = "Final Score: " + score;
     }else if (player.health<=0){
         document.querySelector("#displayText").innerHTML = "You failed to avenge your dead Prince! It's all over"
         document.querySelector("#myButton").innerHTML = "Go Home";
@@ -34,7 +45,7 @@ function determineWinner({player,enemy,timerId}){
     }
 }
 
-let timer = 101;
+let timer = 40;
 let timerId;
 function decreaseTimer(){
     timerId = setTimeout(decreaseTimer, 1000)
@@ -43,7 +54,11 @@ function decreaseTimer(){
         document.querySelector("#timer").innerHTML = timer
     }
     if (timer === 0){
+        player.switchSprite('death')
         document.querySelector("#displayText").style.display = " flex"
         determineWinner({player,enemy,timerId})      
     }
 }
+
+const bt = document.getElementById("myButton")
+
