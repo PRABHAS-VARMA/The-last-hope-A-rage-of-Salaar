@@ -7,7 +7,7 @@ Instructions on how to play this game:
             1)You need a friend / peer to play this game
             2)Take the help of your friend and ask him/her to control the enemy in each round
             3)The enemy cannot move or jump but it sure can attack. To attack with the enemy character you have to click DownArrow/PgDn button
-            4)Ask your friend to operate this button such that whenever you come near to kill the enemy, the enemy will put on a tough fight
+            4)Ask your friend to operate this button such that whenever you come near to kill the enemy, the enemy will put on a tough  fight
             5)Use the keys "A" and "D" to move left and right respectively
             6)Press the key "W" to jump. Press "W" twice to double jump	 
             7)Press "Space" to attack the enemy
