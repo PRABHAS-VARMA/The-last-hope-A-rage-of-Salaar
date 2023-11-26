@@ -217,23 +217,23 @@ function animate() {
 
     // Enemy movement
 
-  if (keys.ArrowLeft.pressed && enemy.lastKey === "ArrowLeft") {
-    enemy.velocity.x = -5
-    enemy.switchSprite('idle')
-  } else if (keys.ArrowRight.pressed && enemy.lastKey === "ArrowRight") {
-    enemy.velocity.x = 5
-    enemy.switchSprite('idle')
-  } else {
-    enemy.switchSprite('idle')
-  }
+  // if (keys.ArrowLeft.pressed && enemy.lastKey === "ArrowLeft") {
+  //   enemy.velocity.x = -5
+  //   enemy.switchSprite('idle')
+  // } else if (keys.ArrowRight.pressed && enemy.lastKey === "ArrowRight") {
+  //   enemy.velocity.x = 5
+  //   enemy.switchSprite('idle')
+  // } else {
+  //   enemy.switchSprite('idle')
+  // }
 
 
-   // jumping
-   if (enemy.velocity.y < 0) {
-    enemy.switchSprite('idle')
-  } else if (enemy.velocity.y > 0) {
-    enemy.switchSprite('idle')
-  }
+  //  // jumping
+  //  if (enemy.velocity.y < 0) {
+  //   enemy.switchSprite('idle')
+  // } else if (enemy.velocity.y > 0) {
+  //   enemy.switchSprite('idle')
+  // }
   // if (enemy.framesCurrent === 0 && enemy.framesElapsed % 180 === 0) {
   //   enemy.attack(); 
   // }
@@ -345,16 +345,7 @@ window.addEventListener('keyup', (event) => {
       break
     
   }
-  // enemy keys
-//   switch (event.key) {
-//     case 'ArrowRight':
-      // keys.ArrowRight.pressed = false
-//       break
-//     case 'ArrowLeft':
-//       keys.ArrowLeft.pressed = false
-//       break
-
-// }
+ 
 }
 
 )

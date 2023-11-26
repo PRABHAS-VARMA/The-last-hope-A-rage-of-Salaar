@@ -224,15 +224,15 @@ function animate() {
 
     // Enemy movement
 
-  if (keys.ArrowLeft.pressed && enemy.lastKey === "ArrowLeft") {
-    enemy.velocity.x = -5
-    enemy.switchSprite('idle')
-  } else if (keys.ArrowRight.pressed && enemy.lastKey === "ArrowRight") {
-    enemy.velocity.x = 5
-    enemy.switchSprite('idle')
-  } else {
-    enemy.switchSprite('idle')
-  }
+  // if (keys.ArrowLeft.pressed && enemy.lastKey === "ArrowLeft") {
+  //   enemy.velocity.x = -5
+  //   enemy.switchSprite('idle')
+  // } else if (keys.ArrowRight.pressed && enemy.lastKey === "ArrowRight") {
+  //   enemy.velocity.x = 5
+  //   enemy.switchSprite('idle')
+  // } else {
+  //   enemy.switchSprite('idle')
+  // }
 
 
    // jumping
