@@ -16,7 +16,7 @@ document.getElementById("submit").addEventListener("click", function () {
   
     // Continue with your application logic...
     if (username && nickname) {
-        window.location.href = "../HomePage/Homepage.html";
+        window.location.href = "./HomePage/Homepage.html";
     }else {
                 alert('Please fill in both fields');
              }
