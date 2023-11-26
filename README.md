@@ -18,5 +18,7 @@ Instructions on how to play this game:
             12)Your health will refill to maximum after each level irrespective of how much you have in your previous level
             13)Score is calculated based on the number of hits. For each hit/attack you actually do on enemy, your score will increase by 5 point. Score will reset after each level.
             14)HAVE FUN and ENJOY THE GAME
+
+            
 About:
     It came out of nowhere. The initiative for this game. I have always been a fan of storymode action games since childhood and I always felt they lacked specific things even though I loved them. I always imagined that if I ever get a chance I would the best game possible under given resources. Now that I actually got the chance to make a game, I thought "Why not? Why not build a game that I always wanted to play". Yes, OfCourse it might not be as good as the one that I had in the mind but it is definitely a start. A start to something big. Also please note that this is not the final product of the game and I will keep working on this till I reach my childhood expectations on a typical storymode action game
