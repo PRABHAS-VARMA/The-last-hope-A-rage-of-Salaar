@@ -4,6 +4,10 @@ The world is taken over by the mighty Lecharious with his darkness spread all ov
 
 
 Instructions on how to play this game:
+
+
+
+
             1)You need a friend / peer to play this game
             2)Take the help of your friend and ask him/her to control the enemy in each round
             3)The enemy cannot move or jump but it sure can attack. To attack with the enemy character you have to click DownArrow/PgDn button
@@ -23,4 +27,8 @@ Instructions on how to play this game:
 
             
 About:
+
+
+
+
     It came out of nowhere. The initiative for this game. I have always been a fan of storymode action games since childhood and I always felt they lacked specific things even though I loved them. I always imagined that if I ever get a chance I would the best game possible under given resources. Now that I actually got the chance to make a game, I thought "Why not? Why not build a game that I always wanted to play". Yes, OfCourse it might not be as good as the one that I had in the mind but it is definitely a start. A start to something big. Also please note that this is not the final product of the game and I will keep working on this till I reach my childhood expectations on a typical storymode action game
